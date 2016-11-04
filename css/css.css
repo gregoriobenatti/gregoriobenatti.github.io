@@ -1,6 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
-@media screen {
+@media screen and (min-width:658px)  {
+    body {
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		  
+		transform: translate(-50%, -50%);
+		  
+		width: 460px;
+		height: 50%;
+    }
+}
+
+@media screen and (min-width:659px) {
     body {
 		position: absolute;
 		left: 50%;
