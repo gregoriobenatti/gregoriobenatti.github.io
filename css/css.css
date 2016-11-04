@@ -9,7 +9,7 @@
 		transform: translate(-50%, -50%);
 		  
 		width: 460px;
-		height: 50%;
+		height: 100%;
     }
 }
 
@@ -24,6 +24,13 @@
 		width: 660px;
 		height: 50%;
     }
+}
+
+img {
+	/*
+	img size --> 660x150
+	*/
+	width: 100%;
 }
 
 body {
