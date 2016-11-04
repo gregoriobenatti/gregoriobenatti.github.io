@@ -33,16 +33,16 @@ img {
 	*/
 	width: 100%;
 	
-	/*filter: gray; */ /* IE6-9 */
-	/*filter: grayscale(1); */ /* Microsoft Edge and Firefox 35+ */
-	/*-webkit-filter: grayscale(1); */ /* Google Chrome, Safari 6+ & Opera 15+ */
+	filter: gray;  /* IE6-9 */
+	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+	-webkit-filter: grayscale(1);  /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-/*
+
 img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
 }
-*/
+
 
 body {
     font-family: 'Roboto Mono', monospace;
@@ -96,6 +96,7 @@ h2 {
 
 
 /* testing... */
+/*
 .profile-image-container {
   margin-right: auto;
   margin-left: auto;
@@ -110,7 +111,7 @@ h2 {
   top: 0;
   bottom: 0;
   right: 0;
-  /*background-color: rgba(1, 1, 1, 0.3);*/
+  background-color: rgba(1, 1, 1, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,3 +120,4 @@ h2 {
 .profile-image-container:hover .mask-layer{
   visibility: visible;
 }
+*/
