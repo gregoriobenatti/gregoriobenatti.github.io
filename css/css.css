@@ -32,7 +32,17 @@ img {
 	img size --> 660x150
 	*/
 	width: 100%;
+	
+	/*filter: gray; */ /* IE6-9 */
+	/*filter: grayscale(1); */ /* Microsoft Edge and Firefox 35+ */
+	/*-webkit-filter: grayscale(1); */ /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+/*
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+*/
 
 body {
     font-family: 'Roboto Mono', monospace;
