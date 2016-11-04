@@ -1,20 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
-@media screen and (min-width:600px) {
+@media screen {
     body {
-        padding: 3% 10%;
-    }
-}
-
-@media screen and (min-width:800px) {
-    body {
-        padding: 5% 20%;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    body {
-        padding: 5% 25%;
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		  
+		transform: translate(-50%, -50%);
+		  
+		width: 660px;
+		height: 50%;
     }
 }
 
