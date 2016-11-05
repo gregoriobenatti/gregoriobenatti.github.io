@@ -42,7 +42,10 @@ img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
 }
-
+.imgNoFilterEver {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
 
 body {
     font-family: 'Roboto Mono', monospace;
