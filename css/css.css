@@ -32,19 +32,13 @@ img {
 	img size --> 660x150
 	*/
 	width: 100%;
-	
-	filter: gray;  /* IE6-9 */
-	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-	-webkit-filter: grayscale(1);  /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-}
-.imgNoFilterEver {
-    filter: none;
-    -webkit-filter: grayscale(0);
+  -moz-box-shadow: 0 0 15px #CCC;
+  -webkit-box-shadow: 0 0 15px #CCC;
+  box-shadow: 0px 0px 15px #CCC;
+  filter:progid:DXImageTransform.Microsoft.Glow(Color=grey,Strength=15);
 }
 
 body {
