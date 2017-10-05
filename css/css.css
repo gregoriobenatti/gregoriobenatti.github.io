@@ -88,33 +88,5 @@ h2 {
 
 .links {
     padding-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
-
-
-/* testing... */
-/*
-.profile-image-container {
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-}
-.profile-image-container .profile-image {
-  margin: auto;
-}
-.profile-image-container .mask-layer {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(1, 1, 1, 0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-}
-.profile-image-container:hover .mask-layer{
-  visibility: visible;
-}
-*/
