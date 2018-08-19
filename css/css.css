@@ -43,6 +43,9 @@ img:hover {
 
 body {
     font-family: 'Roboto Mono', monospace;
+    background-color: #FFF; 
+    background-image: url("../images/bg2.png");
+    background-repeat: repeat;
 }
 
 a {
